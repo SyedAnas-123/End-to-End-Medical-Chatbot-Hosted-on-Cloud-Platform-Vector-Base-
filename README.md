@@ -98,7 +98,7 @@ open up localhost:
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 970547337635.dkr.ecr.ap-south-1.amazonaws.com/medicalchatbot
+    - Save the URI: 796256729546.dkr.ecr.eu-north-1.amazonaws.com/medicalchatbot_aws
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -134,5 +134,6 @@ open up localhost:
    - ECR_REPO
    - PINECONE_API_KEY
    - OPENAI_API_KEY
+   - OPEN_AI_BASE_URL
 
     
