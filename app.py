@@ -11,6 +11,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage
 import os
 
+
 app = Flask(__name__)
 
 load_dotenv()
