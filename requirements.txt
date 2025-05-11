@@ -1,4 +1,5 @@
 sentence-transformers
+gunicorn
 sentence-transformers==2.2.2
 langchain
 flask
