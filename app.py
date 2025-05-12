@@ -76,6 +76,5 @@ def chat():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port= 8080, debug= True)
-
-
+    port = int(os.environ.get("PORT", 10000))  # default 10000, or Render-defined port
+    app.run(host="0.0.0.0", port=port)
