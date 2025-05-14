@@ -17,7 +17,7 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://syeddddaaaa:$HF_TOKEN@huggingface.co/spaces/syeddddaaaa/Inteliigent_Medical_Ai_chatbot-Rag_Based_System  main
+        run: git push --force https://syeddddaaaa:$HF_TOKEN@huggingface.co/spaces/syeddddaaaa/Inteliigent_Medical_Ai_chatbot-Rag_Based_Systemmain
 
         
 
