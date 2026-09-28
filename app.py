@@ -41,7 +41,7 @@ retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":
 
 
 llm = ChatOpenAI(
-    model="deepseek/deepseek-r1:free",
+    model="deepseek/deepseek-r1",
     base_url= OPEN_AI_BASE_URL,
     api_key= OPEN_AI_API_KEY ,
     temperature=0.4,
